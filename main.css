@@ -1,0 +1,115 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #f598a8, #f6edb2);
+  padding: 0;
+  margin: 0;
+}
+#bold {
+    text-align:center;
+    font-weight: bold;
+}
+.col1 {
+    width: 5%;
+}
+
+.col2 {
+    width: 5%;
+}
+
+.col3 {
+    width: 5%;
+}
+
+.col4 {
+    width: 20%;
+}
+
+.col5 {
+    width: 35%;
+}
+.col6{
+    width: 20%;
+}
+.headerSpan{
+   font-family: Times;
+   color: darkred;
+   font-size:large;
+
+}
+input[class="xValue"]{
+   border-radius: 4px;
+
+   border: none;
+
+   text-align: center;
+   width: 10%;
+   font-size: 12px;
+   padding: 10px;
+}
+.xValueUnit{
+    padding:    2%;
+    width:  100%;
+}
+.xValueUnitHide{
+    visibility: hidden;
+}
+.yValueUnit{
+   margin-left: 30%;
+   margin-right: auto
+}
+p{
+   margin-left: 43%;
+   margin-right: auto
+}
+#group{
+    text-align:     center  ;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #cfecd0;
+  border: none;
+  color: #16014c;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin:0 25% 0 25%;
+  width:50%;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#answer{
+    text-align: center;
+}
